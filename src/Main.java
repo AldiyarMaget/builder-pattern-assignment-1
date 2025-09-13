@@ -4,9 +4,9 @@ public class Main {
         Minecraft mc1 = world.createWorld();
 
         Minecraft mc2 = Minecraft.builder()
-                .player_name("Technoblade")
+                .playerName("Technoblade")
                 .mode("Legend")
-                .World_name("Paradise")
+                .worldName("Paradise")
                 .build();
     }
 }
